@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HotelBooking:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HotelBooking_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HotelBooking/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HotelBooking" />
+          <element id="jpa-descriptors" facet="HotelBooking/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:Release" />
+          <element id="library" level="project" name="hotel_lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
